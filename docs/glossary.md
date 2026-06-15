@@ -23,6 +23,8 @@ icon: book-open-lines
 
 **Geometry**: In the context of AirPig, geometry usually means the components of a map that determine how characters can move. A map's geometry includes the collision for the walls, the Navigation Mesh, and the definitions of the type of each tile.
 
+**Instance**: A specific single object in the game, created from a more general concept. For example, you may have the concept of a Human Entity in your game. When you place that Entity in a map and name it "Sally", Sally is now a specific Instance of a Human.
+
 **Item**: Anything that can be placed in the inventory of a player, NPC, or monster. A sword, helmet, or other piece of Gear are Items. Items are created using AirPig's Item Editor.
 
 **Keyframe**: A specific point in time within an Animation where a bone's position or rotation is set. AirPig blends smoothly between keyframes to create movement.
@@ -38,3 +40,5 @@ icon: book-open-lines
 **Sprite**: A small image, loaded from a PNG file, that represents a basic visual element in the game, like an item, or icon.
 
 **Tile**: AirPig maps are made up of 16x16 pixel tiles. Each tile has a specific type including Background, Floor, Path or Wall. The tile types are used to determine which Sprite is used for each tile, and also whether the tile can be walked on by characters in the game.
+
+**Variant**: A unique version, or variation, of a Rig. For example, a "humanoid" Rig might define walking, attacking, and other animations but have multiple types of humanoid creatures such as Humans, Goblins, Skeletons, or Zombies that are all Variants of the Rig. When you place a Rig into a map, you can define which Variant the Rig should be, such as Human for a friendly NPC or Zombie for a monster.
