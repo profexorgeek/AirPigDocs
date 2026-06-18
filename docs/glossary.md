@@ -9,6 +9,8 @@ icon: book-open-lines
 
 **Animation**: A sequence of Keyframes that moves a Rig's bones over time, making an Entity walk, attack, or perform other actions.
 
+**Biome**: A tileset used by a map that defines the look of the map. Biomes are a 256x256px png image that defines 16x16px tiles in a specific layout. See [Creating Raw Content](creating-raw-content.md#biomes) for more details.
+
 **Bone**: A part of a Rig that can be positioned, rotated, and given attachments like a Sprite. Bones form the skeleton that brings an Entity to life.
 
 **Body Collision**: A collision shape that defines a character's outline or total body shape. Body collision is used to determine what part of an object is clickable when editing items on a map, and also used to determine where an object can be hit during gameplay to take damage.

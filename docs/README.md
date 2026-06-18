@@ -1,5 +1,6 @@
 ---
 description: Overview of the AirPig Game Engine
+icon: pig
 ---
 
 # AirPig Game Engine
@@ -12,11 +13,13 @@ The AirPig editor is accessible for new game developers, fast for game-jammers, 
 
 [To learn more about AirPig, check out our YouTube channel.](https://www.youtube.com/@airpig-engine)
 
-
+{% hint style="success" %}
+All of the UI controls in the AirPig engine should have tooltips! You can hover over a button, text field, or other UI control in the editor to get a brief description of what it does.
+{% endhint %}
 
 ### Key Concepts
 
-AirPig organizes the game development process into these key concepts.
+AirPig organizes the game development process into the following key concepts.
 
 #### Rig
 
