@@ -11,6 +11,8 @@ Most of the game development and game content creation happens within the AirPig
 
 When a new project is created in AirPig, it will automatically create a folder structure on disk for the content types described below.
 
+Sites such as [Itch.io have a large volume of game asset packs available](https://itch.io/game-assets/tag-pixel-art) that are affordable and fairly simple to use in AirPig with light editing. This is a great way for new game developers to start their journey!
+
 {% hint style="success" %}
 AirPig regularly scans the game folder for new content but may not immediately pick up new content when added to folders outside of AirPig. You can click "Rescan Assets" from the editor menu at any time to pick up newly-added items including both raw content and assets such as rigs that were copied from another project!
 {% endhint %}
