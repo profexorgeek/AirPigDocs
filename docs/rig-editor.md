@@ -34,7 +34,7 @@ Every Rig has a **Behavior**, chosen from the Behavior dropdown, that determines
 - **Container**: A simple entity with an inventory that can be opened to exchange items.
 - **Prop**: A simple entity with just a collision footprint, which may optionally be destroyable.
 
-Changing a Rig's Behavior automatically creates any Animations that behavior requires (for example, Characters require animations like `Moving`, `Attacking`, and `Dying`) if they don't already exist. You can delete auto-created animations you don't need, but you'll want to make sure nothing else depends on them first.
+Changing a Rig's Behavior automatically creates any Animations that behavior requires (for example, Characters require animations like `Moving`, `AttackUnarmed`, and `Dying`) if they don't already exist. You can delete auto-created animations you don't need, but you'll want to make sure nothing else depends on them first.
 
 ### Working with Bones
 
