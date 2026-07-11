@@ -7,4 +7,5 @@
 * [Animation Editor](animation-editor.md)
 * [Variant Editor](variant-editor.md)
 * [Item Editor](item-editor.md)
+* [Project Settings](project-settings.md)
 * [Glossary](glossary.md)
