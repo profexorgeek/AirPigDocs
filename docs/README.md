@@ -65,7 +65,7 @@ AirPig allows game designers to create Quests that can be offered by NPC charact
 
 #### Maps
 
-Maps are where everything comes together. Maps allow editors to rapidly draw out map geometry and add entities, sprites, and special zones such as collision or spawners to the map.
+Maps are where everything comes together. Maps allow editors to rapidly draw out map geometry and add entities, sprites, and special Polygons such as collision or spawn areas to the map.
 
 <figure><img src=".gitbook/assets/2026-06-06-11-04-13.png" alt=""><figcaption></figcaption></figure>
 

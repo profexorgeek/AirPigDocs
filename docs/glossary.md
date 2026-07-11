@@ -35,6 +35,10 @@ icon: book-open-lines
 
 **Navigation Mesh:** This may also be shortened to Nav Mesh. Navigation Mesh determines where characters can walk on a map - especially NPC characters. A Navigation Mesh is just a bunch of points linked by lines. When an NPC needs to find a path, they use the Navigation Mesh to avoid obstacles and move to the target point.
 
+**Node**: A single point that helps define the shape of a Polygon. Moving a Node reshapes the Polygon it belongs to.
+
+**Polygon**: A shape drawn on a Map out of connected Nodes, used to mark an area with special behavior - such as blocking movement, dealing damage, transitioning to another map, or defining where players spawn. Polygons are drawn and edited in AirPig's Map Editor.
+
 **Rig**: Rigs are the foundation of all game entities. Rigs define bones that can have attachments such as a Sprite or an Item. Rigs have animations that determine how bones are positioned and rotated at specific keyframes. Every Entity in the game has a Rig that defines how it looks and moves.
 
 **Sprite**: A small image, loaded from a PNG file, that represents a basic visual element in the game, like an item, or icon.
