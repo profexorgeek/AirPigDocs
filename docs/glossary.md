@@ -21,13 +21,11 @@ icon: book-open-lines
 
 **Footprint Collision**: A collision shape that defines how much space an entity, such as a monster or barrel, takes up in space. Footprint collision is used by the engine to prevent objects from moving through each other. Footprint collision can be edited in AirPig's Rig Editor.
 
-**Gear**: A weapon or a piece of armor. Gear is a more specific type of Item. Gear is created using AirPig's Item Editor.
-
 **Geometry**: In the context of AirPig, geometry usually means the components of a map that determine how characters can move. A map's geometry includes the collision for the walls, the Navigation Mesh, and the definitions of the type of each tile.
 
 **Instance**: A specific single object in the game, created from a more general concept. For example, you may have the concept of a Human Entity in your game. When you place that Entity in a map and name it "Sally", Sally is now a specific Instance of a Human.
 
-**Item**: Anything that can be placed in the inventory of a player, NPC, or monster. A sword, helmet, or other piece of Gear are Items. Items are created using AirPig's Item Editor.
+**Item**: Anything that can be placed in the inventory of a player, NPC, or monster. AirPig currently supports two types of Item: Armor and Weapon. A sword or a helmet are both Items. Items are created using AirPig's Item Editor.
 
 **Keyframe**: A specific point in time within an Animation where a bone's position or rotation is set. AirPig blends smoothly between keyframes to create movement.
 
