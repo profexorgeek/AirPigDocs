@@ -31,10 +31,12 @@ All tiles in AirPig are 16x16 pixels.
 
 This means that you can "hot swap" the biome used by a map without redrawing any tiles or map geometry. This also allows you to duplicate a map and change the biome, reusing a map layout while changing the look of the map.
 
-Each png placed in the `biomes` folder is expected to be a 256x256 pixel png file with the following layout.
+Each png placed in the `biomes` folder is expected to be a 256x256 pixel png file with the following layout:
 
-{% hint style="danger" %}
-WIP: biome layout diagram coming soon!
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+Check out our video demonstrating how to [create a biome from an existing art pack](https://youtu.be/KsuSEOeYo-8?si=5Agh9DEiM9zcc0MX) purchased on a site such as Itch.io!
 {% endhint %}
 
 ### maps
@@ -62,4 +64,3 @@ The texture packing/atlasing feature is not yet implemented and will be built in
 ### rigs
 
 The engine will save rig files into the `rigs` folder. Raw content should not be placed in this folder.
-
