@@ -1,6 +1,7 @@
 # Table of contents
 
 * [AirPig Game Engine](README.md)
+* [Controls](controls.md)
 * [Creating Raw Content](creating-raw-content.md)
 * [Map Editor](map-editor.md)
 * [Rig Editor](rig-editor.md)
