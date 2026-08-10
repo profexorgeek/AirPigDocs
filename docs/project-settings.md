@@ -38,6 +38,10 @@ The settings below are split into two groups:
 
 **DyingAnimSec**: `float`. Duration in seconds of the dying animation, played before an entity's death-fade begins.
 
+**GameplayReferenceHeight**: `int`. Reference screen height paired with **GameplayReferenceWidth**.
+
+**GameplayReferenceWidth**: `int`. The reference screen width AirPig uses to decide how zoomed-in gameplay looks on small screens. Smaller values let the game zoom in further before the view gets cropped, at the cost of a smaller visible play area. Only affects the published game - the editor always uses its own fixed reference size.
+
 **InteractAnimSec**: `float`. Duration in seconds of the interact animation, played when an entity interacts with something.
 
 **MaxDamageResistance**: `float`. The highest fraction of incoming damage that Defense can absorb, from 0 to 1. Capped at 0.9 by default so a very high Defense value still can't grant full immunity.
@@ -63,6 +67,10 @@ The settings below are split into two groups:
 **SpawnAnimSec**: `float`. Duration in seconds of the spawn-in animation played when an entity appears.
 
 **SpawnIntervalSec**: `double`. Minimum seconds between consecutive entity spawns at a single spawn Polygon.
+
+**SprinkleTextureProbability1**: `float`. Chance, from 0 to 1, that a tier-1 sprinkle texture appears on a given map tile. Defaults to `0.05` (5%). See [Creating Raw Content](creating-raw-content.md#biomes) for what sprinkle textures are.
+
+**SprinkleTextureProbability2**: `float`. Chance, from 0 to 1, that a tier-2 sprinkle texture appears on a given map tile. Rolled together with **SprinkleTextureProbability1** so at most one sprinkle ever appears per tile. Defaults to `0.01` (1%).
 
 **StickDeadzone**: `float`. Analog stick dead zone radius; controller input below this magnitude is ignored. Increase this if a player's controller has stick drift.
 
@@ -96,6 +104,8 @@ The settings below are split into two groups:
 
 **PolyHandleColor**: `Color (hex)`. Overlay color for a Polygon's Node handles while editing its shape.
 
+**RotationSnapDegrees**: `float`. The rotation increment, in degrees, that rig bones, animation keyframes, and map sprites snap to when you hold `Alt + Shift` while rotating (see [Controls](controls.md)).
+
 **SelectedShapeColor**: `Color (hex)`. Overlay color for whichever shape is currently selected in the editor.
 
 **SpriteBoundsColor**: `Color (hex)`. Overlay color for sprite bounds rectangles in the editor.
@@ -104,9 +114,9 @@ The settings below are split into two groups:
 
 **ZoneCollideColor**: `Color (hex)`. Overlay color for Polygons with a Collide behavior (solid collision) in the editor.
 
-**ZoneDamageColor**: `Color (hex)`. Overlay color for Polygons with a Damage behavior in the editor.
-
 **ZoneNoneColor**: `Color (hex)`. Overlay color for Polygons with no behavior assigned yet, in the editor.
+
+**ZonePatrolAreaColor**: `Color (hex)`. Overlay color for Polygons with a Patrol Area behavior in the editor.
 
 **ZoneSpawnColor**: `Color (hex)`. Overlay color for Polygons with a Spawn behavior in the editor.
 
