@@ -41,6 +41,8 @@ icon: book-open-lines
 
 **Rig**: Rigs are the foundation of all game entities. Rigs define bones that can have attachments such as a Sprite or an Item. Rigs have animations that determine how bones are positioned and rotated at specific keyframes. Every Entity in the game has a Rig that defines how it looks and moves.
 
+**Sprinkle Texture**: A small, optional decoration - like a blade of grass or a crack in stone - that AirPig randomly scatters on top of Background, Floor, Path, and Wall Top tiles to make repeating tile art feel less repetitive. See [Creating Raw Content](creating-raw-content.md#biomes) for how to draw them and [Project Settings](project-settings.md) for how often they appear.
+
 **Sprite**: A small image, loaded from a PNG file, that represents a basic visual element in the game, like an item, or icon.
 
 **Tile**: AirPig maps are made up of 16x16 pixel tiles. Each tile has a specific type including Background, Floor, Path or Wall. The tile types are used to determine which Sprite is used for each tile, and also whether the tile can be walked on by characters in the game.

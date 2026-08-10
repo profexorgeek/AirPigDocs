@@ -33,8 +33,8 @@ AirPig should support most controller types. The controls listed below are based
 * **Movement**: `Left Analog Stick`
 * **Attack**: `X Button`
 * **Dash**: <kbd>B Button</kbd>
-* **Journal**: `Left Shoulder Button`
-* **Inventory**: `Right Shoulder Button`
+* **Journal**: `Select Button` (sometimes labeled Back or View)
+* **Inventory**: `Start Button` (sometimes labeled Menu)
 * **Interact**: `A Button`
 * **Exit Playtest**: `Not Implemented`
 
