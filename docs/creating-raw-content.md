@@ -39,6 +39,25 @@ Each png placed in the `biomes` folder is expected to be a 256x256 pixel png fil
 Check out our video demonstrating how to [create a biome from an existing art pack](https://youtu.be/KsuSEOeYo-8?si=5Agh9DEiM9zcc0MX) purchased on a site such as Itch.io!
 {% endhint %}
 
+#### Sprinkle Textures
+
+Biomes also reserve small pockets of extra space for **sprinkle textures** - optional, mostly-transparent decorations (like a stray blade of grass or a crack in the stone) that AirPig scatters across a layer's tiles to break up the repetitive look of a tile grid. Sprinkle textures are much smaller than a regular tile: each reserved 16x16 spritesheet region is cut into four 8x8 pieces, and AirPig randomly picks one, optionally flips it left-to-right, and places it at a random spot on top of a tile.
+
+Drawing sprinkle art is entirely optional - a biome with nothing drawn in these reserved regions simply has no sprinkles.
+
+Sprinkles are only available on the Background, Floor, Path, and Wall Tops layers (not Wall Front faces), and only ever appear on top of a tile that already has art on that layer - an empty tile never gets a stray sprinkle.
+
+Each layer's sprinkle space comes in two rarity tiers, drawn from separate spots on the spritesheet:
+
+* **Tier 1** is the more common tier. For the Background layer it's a single 16x16 region (4 pieces of art to choose from); for Floor, Path, and Wall Tops it's twice that size (8 pieces of art to choose from).
+* **Tier 2** works the same way as Tier 1, but is meant for a rarer, more special decoration.
+
+How often each tier actually shows up in a published map is controlled per-project in [Project Settings](project-settings.md) (**SprinkleTextureProbability1** and **SprinkleTextureProbability2**). At most one sprinkle ever appears on a given tile, and a map's sprinkle pattern stays the same every time you open it - it won't shuffle around on its own.
+
+{% hint style="warning" %}
+The layout diagram above doesn't mark the sprinkle texture regions yet - it will be updated soon to show exactly where they go on the spritesheet.
+{% endhint %}
+
 ### maps
 
 The engine will save game maps into the `maps` folder. You should not place any raw assets in this folder.
