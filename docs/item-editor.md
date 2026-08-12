@@ -7,9 +7,9 @@ icon: swords
 
 The Item Editor is where you create the Weapons and Armor that Entities can wear and wield. See the [Glossary](glossary.md) for a refresher on Items - AirPig currently supports two Item types, edited from the **Armor** and **Weapon** tabs on the left side of this page.
 
-{% hint style="success" %}
-Want a video instead? Check out our [Variants and Items Deep Dive](https://youtu.be/y0V3P49Gz44?si=6u-8VlIpR8iY983Q) on YouTube!
-{% endhint %}
+{% embed url="https://youtu.be/y0V3P49Gz44" %}
+Variants and Items Deep Dive
+{% endembed %}
 
 {% hint style="info" %}
 Armor isn't limited to actual armor! Since it can be attached to any Bone with any sprite, it's also how you create hair, clothing, and other cosmetic attachments - see the examples on the [engine overview page](./).

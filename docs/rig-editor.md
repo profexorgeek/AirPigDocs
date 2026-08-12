@@ -7,9 +7,9 @@ icon: skeleton-ribs
 
 The Rig Editor is where you build the skeleton behind every Entity in your game - positioning Bones, attaching sprites to them, and deciding how the Entity behaves. See the [Glossary](glossary.md) for a refresher on Rigs, Bones, and Entities if you're new to skeletal animation.
 
-{% hint style="success" %}
-Want a guided walkthrough instead? Check out our [Rig Deep Dive video on YouTube](https://youtu.be/kfay8D5D120?si=wKM2vMmgu4ZDsAqI).
-{% endhint %}
+{% embed url="https://youtu.be/kfay8D5D120" %}
+Rig Deep Dive
+{% endembed %}
 
 ### Creating and Managing Rigs
 

@@ -9,9 +9,9 @@ The Animation Editor is where you bring a Rig to life by posing its Bones at dif
 
 Every animation's timeline runs from **0 to 100**, representing your progress through the animation as a percentage rather than a fixed frame count - so an animation always plays at the same relative pace no matter how long or short you make it.
 
-{% hint style="success" %}
-For a demonstration of how to use the animation editor, check out our [Animation Deep Dive](https://youtu.be/1PlC_TnHyAk?si=biFZXEi1fXhOi-l7) video on Youtube!
-{% endhint %}
+{% embed url="https://youtu.be/1PlC_TnHyAk" %}
+Animation Deep Dive
+{% endembed %}
 
 ### Managing Animations
 

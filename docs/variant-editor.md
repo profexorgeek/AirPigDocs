@@ -7,9 +7,9 @@ icon: copy
 
 The Variant Editor lets you take a single Rig and turn it into a whole cast of characters, containers, or props - reskinning its Bones with different sprites and tuning its stats, without touching the underlying skeleton or Animations. See the [Glossary](glossary.md) for a refresher on Variants if you're new to the concept, and check out the "Darktone" and "Skele:Bruiser" examples on the [engine overview page](./) for a sense of what Variants make possible.
 
-{% hint style="success" %}
-Want a video instead? Check out our [Variant Deep Dive](https://youtu.be/y0V3P49Gz44?si=8MrUQr9LP7nKrELM) video on YouTube!
-{% endhint %}
+{% embed url="https://youtu.be/y0V3P49Gz44" %}
+Variant Deep Dive
+{% endembed %}
 
 ### Managing Variants
 

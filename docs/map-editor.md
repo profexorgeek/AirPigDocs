@@ -9,9 +9,9 @@ The Map Editor is where everything comes together - drawing out a level's geomet
 
 The Map Editor constantly saves your map file as changes are made so you do not have to worry about saving your settings. We strongly recommend becoming familiar with a [Version Control System tool such as GitHub Desktop](https://www.youtube.com/watch?v=8Dd7KRpKeaE) so you can regularly save changes to game as you work on it!
 
-{% hint style="success" %}
-Want a video instead? Check out our [Map Editor Deep Dive](https://youtu.be/P69CJ60ZkaQ?si=iwFBqPe3LrUQxisv) video on Youtube!
-{% endhint %}
+{% embed url="https://youtu.be/P69CJ60ZkaQ" %}
+Map Editor Deep Dive
+{% endembed %}
 
 ### Managing Maps
 
