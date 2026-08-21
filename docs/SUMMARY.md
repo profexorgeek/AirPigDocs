@@ -9,4 +9,5 @@
 * [Variant Editor](variant-editor.md)
 * [Item Editor](item-editor.md)
 * [Project Settings](project-settings.md)
+* [Debugging](debugging.md)
 * [Glossary](glossary.md)
