@@ -20,7 +20,7 @@ Logging to disk is disabled by default because logging has a performance cost th
 Most users will be using AirPig on Steam. To turn logging on within Steam, you can add the required launch argument by following these instructions:
 
 1. Find AirPig in your Steam library
-2. Highlight the game and press the **`...` (three dot) button** on SteamDeck, or click the **Gear Button** on Windows and select **Properties**
+2. Highlight the game and press the **Start Button** on SteamDeck, or click the **Gear Button** on Windows and select **Properties**
 3. Under **General**, find the **Launch Options** field
 4. Enter exactly: `-log=text`  in the **Launch Options** field
 5. Close the **Properties** window and launch the game normally
