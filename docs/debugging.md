@@ -7,9 +7,9 @@ icon: bug
 
 AirPig has two debug capabilties for production builds.
 
-If AirPig fully crashes, it should send a small snippit of code describing where the crash was to our servers so we can diagnose and fix.
+If AirPig fully crashes, it should send a small snippit of data to our servers describing where the crash happened in AirPig source code so we can diagnose and fix it.
 
-But sometimes the engine can have errors that aren't a crash, or a crash can happen while not connected to any network. In either case, we won't have any information to diagnose and fix a problem. So, AirPig has a logging mode that can be enabled to reproduce a problem and send us the information we need to fix it.
+But sometimes the engine can have errors that aren't a crash, or a crash can happen while not connected to the internet. In either case, we won't have any information to diagnose and fix a problem. So, AirPig has a logging mode that can be enabled to reproduce a problem and send us the information we need to fix it.
 
 ### Enable Logging
 
@@ -20,7 +20,7 @@ Logging to disk is disabled by default because logging has a performance cost th
 Most users will be using AirPig on Steam. To turn logging on within Steam, you can add the required launch argument by following these instructions:
 
 1. Find AirPig in your Steam library
-2. Highlight the game and press the **`...` (three dot) button**, and select **Properties**
+2. Highlight the game and press the **`...` (three dot) button** on SteamDeck, or click the **Gear Button** on Windows and select **Properties**
 3. Under **General**, find the **Launch Options** field
 4. Enter exactly: `-log=text`  in the **Launch Options** field
 5. Close the **Properties** window and launch the game normally
